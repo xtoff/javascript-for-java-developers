@@ -11,6 +11,7 @@
  * TIPS:
  * - Use the function "isNumber" in this file to check if a parameter is a number
  * - Retrieve the value of an HTML input field with this code: "document.getElementById(<html id>).value"
+ * - Convert the number parameters to Integer before comparing them
  */
 
  function max() {
@@ -25,5 +26,5 @@
  * Use this function to check if the parameter is a number
  */
 function isNumber(obj) { 
-	return !isNaN(parseFloat(obj));
+	return !isNaN(parseInt(obj));
 }
