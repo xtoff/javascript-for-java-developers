@@ -10,6 +10,7 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 
 	<!--[if lt IE 9]>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -23,8 +24,24 @@
 		</div>
 
 		<div class="row">
-
-			
+			<div class="col-md-12">
+				<p>You can try one of the following animal types: <strong>flamingo, rat, donkey, leopard, snake, penguin, wallaroo,</strong> ...</p>
+			</div>
+		</div>
+		<div class="row top-buffer">
+			<div class="col-md-3">
+				<label for="animal">Animal:</label>
+				<input type="text" id="animal" />
+			</div>
+			<div class="col-md-2">
+				<button id="validate" onclick="validate()">Validate</button>
+			</div>
+		</div>
+		<div class="row top-buffer">
+			<div class="col-md-5">
+				<div id="valid" class="alert alert-success" style="display: none;" role="alert"></div>
+				<div id="error" class="alert alert-danger" style="display: none;" role="alert"></div>
+			</div>
 		</div>
 	</div>
 
