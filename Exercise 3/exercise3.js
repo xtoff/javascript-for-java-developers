@@ -1,7 +1,7 @@
 /*
  * Exercise 3
  * ----------
- * Complete the function 'calculateAverageGrade', so this funtion logs the average score and the corresponding grade of all the students.
+ * Complete the function 'calculateAverageGrade', so this function logs the average score and the corresponding grade of all the students.
  * First we have to loop through all the students and calculate the average score and log this.
  * Then we are going to log which grade is corresponding to this average score.
  *
